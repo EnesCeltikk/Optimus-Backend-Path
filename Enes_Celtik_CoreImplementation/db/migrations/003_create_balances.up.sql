@@ -1,0 +1,5 @@
+CREATE TABLE balances (
+    user_id INT PRIMARY KEY REFERENCES users(id),
+    amount NUMERIC(12, 2) NOT NULL DEFAULT 0.00,
+    last_updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
