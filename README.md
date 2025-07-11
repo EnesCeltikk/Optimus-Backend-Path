@@ -1,9 +1,5 @@
 # Optimus Backend Path
-
-Welcome, developer! 🚀
-
-This repository is a robust, modular, and production-ready backend skeleton for modern financial or transactional systems, built with Go. It’s designed for clarity, scalability, and real-world concurrency—so you can focus on building features, not boilerplate.
-
+Welcome !
 ---
 
 ## 🏗️ Project Structure
@@ -73,22 +69,5 @@ docker-compose -f deployment/docker-compose.yml up --build
 ## 🛠️ Developer Notes
 - **Auth**: Uses a dummy token for demo. Swap in JWT logic for production.
 - **Migrations**: Managed via SQL scripts in `db/migrations/`.
-- **Testing**: Add your tests! Structure is ready for unit and integration tests.
-- **Extra features**: Audit logs, Redis caching, event sourcing are outlined in the description and can be added as needed.
 
 ---
-
-## 🤝 Contributing
-Pull requests, issues, and suggestions are welcome! Please:
-- Fork the repo
-- Create a feature branch
-- Open a PR with a clear description
-
----
-
-## 📄 License
-MIT — use, modify, and share freely.
-
----
-
-Happy coding! If you build something cool with this, let me know or open a PR. :) 
